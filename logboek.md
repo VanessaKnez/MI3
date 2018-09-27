@@ -17,9 +17,9 @@
 
 ### 27/09/2018
 * 2h15 gewerkt
-* keuze pagina maken
-* reservatie pagina maken
-* bestel pagina maken
+* keuze pagina maken CSS
+* reservatie pagina maken CSS
+* bestel pagina maken CSS
 * zoeken hoe we een kalender moeten maken en tonen (voorlopig gewoon een foto gezet)
 * foto's ordenen in een grid en op deftige afstand zetten enz.
 * foto's in goede ratio zetten (4:3, 400px horizontaal, 299px verticaal)
