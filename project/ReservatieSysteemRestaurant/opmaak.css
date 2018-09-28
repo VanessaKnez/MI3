@@ -51,7 +51,11 @@ textarea {
 #btnBestel,
 #btnAlGereserveerd,
 #btnValideerReservatie,
-#btnAlBesteld {
+#btnAlBesteld,
+#btnConfirmMailAdresWwVergeten,
+#btnReservatiesBehandelen,
+#btnBestellingenBehandelen,
+#btnWerknemersBekijken {
     background-color: #256c74;
     border: none;
     color: white;
@@ -66,12 +70,22 @@ textarea {
     width: 15.7%;
 }
 
+#btnLinkWwVergeten {
+    background-color: #f9f9eb;
+    border: none;
+    color: #256c74;
+    font-size: 14px;
+    text-decoration: none;
+    cursor: pointer;
+    margin-top: 10vh;
+}
+
 #btnLogIn {
-    margin-left: -10vw;
+    margin-left: -10.5vw;
 }
 
 #btnSignIn {
-    margin-left: 7vw;
+    margin-left: 6.5vw;
 }
 
 #btnMaakAccountAan,
@@ -81,7 +95,11 @@ textarea {
 #btnAlGereserveerd,
 #btnBestel,
 #btnAlBesteld,
-#btnValideerReservatie {
+#btnValideerReservatie,
+#btnConfirmMailAdresWwVergeten,
+#btnWerknemersBekijken,
+#btnReservatiesBehandelen,
+#btnBestellingenBehandelen {
     margin-left: -8vw;
 }
 
@@ -102,13 +120,24 @@ textarea {
 }
 
 #btnAlBesteld {
-    margin-top: 32vh;
+    margin-top: 33vh;
+}
+
+#btnReservatiesBehandelen {
+    margin-top: 41vh;
+}
+
+#btnBestellingenBehandelen {
+    margin-top: 48vh;
+}
+
+#btnWerknemersBekijken {
+    margin-top: 56vh;
 }
 
 a {
     text-decoration: none;
     color: #256c74;
-    margin-top: 100px;
 }
 
 #maakloginVoornaam,
