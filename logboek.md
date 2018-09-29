@@ -38,3 +38,13 @@
 * voorlopig Test, Werknemer en Admin gemaakt in Javascript om aan te melden aangezien we de database nog niet kunnen aanspreken
 * gezocht op stackoverflow hoe je een mail kan sturen via Javascript
 * wanneer je je aanmeldt met Test, Werknemer of Admin wordt er voor een bepaalde reden die "controle" niet uitgevoerd, dit moet nog uitgezocht worden
+
+### 29/09/2018
+* 3h5 gewerkt
+* een deel van de reservatie pagina gemaakt + CSS (de pagina waar de werknemer een plaats aan de klant geeft)
+* foto's van de tafels voor die reservatie pagina gemaakt (en nog verder mooier afwerken en goede grote geven enz.)
+* gezocht op w3schools voor de modal fucntie, dit is wanneer je op een foto klikt dat die uitvergroot wordt in het venster zelf en de achtergrond  donkerder wordt
+* de code voor de modal heb ik w3schools gevonden en heb het wat aangepast
+* de oplossing om de error op te lossen die in die code lag heb ik gevonden op stackoverflow, ik heb defer bij de link naar de javascript document toegvoegd, dit zorgt ervoor dat eerst de elementen worden gelanden en dan pas de javascript
+* w3schools: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_modal_img
+* stackoverlfow: https://stackoverflow.com/questions/9778888/uncaught-typeerror-cannot-set-property-onclick-of-null
