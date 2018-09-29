@@ -45,6 +45,6 @@
 * foto's van de tafels voor die reservatie pagina gemaakt (en nog verder mooier afwerken en goede grote geven enz.)
 * gezocht op w3schools voor de modal fucntie, dit is wanneer je op een foto klikt dat die uitvergroot wordt in het venster zelf en de achtergrond  donkerder wordt
 * de code voor de modal heb ik w3schools gevonden en heb het wat aangepast
-* de oplossing om de error op te lossen die in die code lag heb ik gevonden op stackoverflow, ik heb defer bij de link naar de javascript document toegvoegd, dit zorgt ervoor dat eerst de elementen worden gelanden en dan pas de javascript
+* de oplossing om de error op te lossen die in die code lag heb ik gevonden op stackoverflow, ik heb defer bij de link naar de javascript document toegvoegd, dit zorgt ervoor dat eerst de elementen worden geladen en dan pas de javascript
 * w3schools: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_modal_img
 * stackoverlfow: https://stackoverflow.com/questions/9778888/uncaught-typeerror-cannot-set-property-onclick-of-null
