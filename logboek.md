@@ -1,5 +1,5 @@
 # Logboek Vanessa Knez r0698813 2TI2
-## week 1
+## week 1 (13h40 gewerkt)
 ### 24/09/2018
 * 40 minuten gewerkt
 * index pagina gemaakt + CSS
@@ -48,3 +48,8 @@
 * de oplossing om de error op te lossen die in die code lag heb ik gevonden op stackoverflow, ik heb defer bij de link naar de javascript document toegvoegd, dit zorgt ervoor dat eerst de elementen worden geladen en dan pas de javascript
 * w3schools: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_modal_img
 * stackoverlfow: https://stackoverflow.com/questions/9778888/uncaught-typeerror-cannot-set-property-onclick-of-null
+
+### 30/09/2018
+* 1h gewerkt
+* foto's bijgeknipt voor de reservatie pagina (tafels met de nummers erop)
+* foto's gezcoht voor de bestelpagina (bv wanneer een bestelling klaar is, gemaakt is, ontvangen geweest is enz.)
