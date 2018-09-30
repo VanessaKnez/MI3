@@ -21,6 +21,9 @@ $(document).ready(function () {
     $("#btnBestel").click(function () {
             window.location = "bestel.html";
         })
+     $("#btnReservatiesBehandelen").click(function () {
+            window.location = "reservatieKlantValideren.html";
+        })
 });
 
 // voorlopig gaan we drie gebruikers hebben
