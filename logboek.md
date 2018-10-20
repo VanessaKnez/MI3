@@ -53,3 +53,10 @@
 * 1h gewerkt
 * foto's bijgeknipt voor de reservatie pagina (tafels met de nummers erop)
 * foto's gezcoht voor de bestelpagina (bv wanneer een bestelling klaar is, gemaakt is, ontvangen geweest is enz.)
+
+## week 4
+
+### 15/10/2018
+* 1h30 bezig met het installeren
+* ik heb al het nodige geïnstalleerd om Cordova te kunnen installeren
+* android studio is deftig geïnstalleerd, maar cordova nog niet.
