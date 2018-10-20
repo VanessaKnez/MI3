@@ -176,6 +176,21 @@ a {
     margin-left: calc(28vw - 50px);
 }
 
+#fotoDing,
+#fotoOrderReceived,
+#fotoCooking,
+#fotoReady,
+#fotoCheckMark{
+    margin-top: 6vh;
+    border: 5px solid #256c74;
+    border-radius: 50%;
+    padding: 4px;
+}
+
+#streepjeTussenFotosVanBestelling {
+    /* nog te komen opmaak */
+}
+
 .grid-container {
     text-align: center;
     display: grid;
