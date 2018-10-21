@@ -60,3 +60,9 @@
 * 1h30 bezig met het installeren
 * ik heb al het nodige geïnstalleerd om Cordova te kunnen installeren
 * android studio is deftig geïnstalleerd, maar cordova nog niet.
+
+### 20/10/2018
+* 1h50 gewerkt
+* foto's bewerkt + CSS
+* ronde cirkel rond de foto's
+* streepjes zetten tussen de foto's
