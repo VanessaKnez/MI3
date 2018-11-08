@@ -54,7 +54,7 @@
 * foto's bijgeknipt voor de reservatie pagina (tafels met de nummers erop)
 * foto's gezcoht voor de bestelpagina (bv wanneer een bestelling klaar is, gemaakt is, ontvangen geweest is enz.)
 
-## week 4
+## week 4 (4h25 gewerkt)
 
 ### 15/10/2018
 * 1h30 bezig met het installeren
@@ -66,3 +66,23 @@
 * foto's bewerkt + CSS
 * ronde cirkel rond de foto's
 * streepjes zetten tussen de foto's
+
+### 22/10/2018
+* 2h05 gewerkt
+* alles wat ik zelf in CSS had gescrheven heb ik in Framework 7 gedaan omdat dit beter responsiva gaat zijn dan wat ik schrijf
+* ik heb een paar stukjes in de CSS aangepast van Framework 7
+
+## week 6 (20 min gewerkt)
+
+### 03/11/2018
+* 20min gewerkt
+* pagina's gemaakt in Framework 7
+
+## week 7
+
+### 09/11/2018
+* ik heb nog een paar andere pagina's aangemaakt met Framework 7
+* orde toegevoegd in de map, bv alles wat met accounts te maken heeft zoals registreer.html wordt account_registreer.html
+* registreer pagina gemaakt, paar CSS zaken moeten nog aangepast worden
+* bestel pagina een deel van gemaakt, helemaal nog niet af, wanneer we op een afbeelding zouden klikken zou er een pop up van de afbeelding zelf gemaakt moeten worden en waar je beneden met pijltjes kan navigeren tussen de foto's
+* in welke fase de bestelling is heb ik die pagina ook al gemaakt, er staan enkel de foto's en de streepjes tussen de foto's, voor de rest moet er nog aan de CSS gewerkt worden en de code erachter ook nog
