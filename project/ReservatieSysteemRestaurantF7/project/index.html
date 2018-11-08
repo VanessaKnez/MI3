@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, viewport-fit=cover">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="theme-color" content="#2196f3">
+    <meta http-equiv="Content-Security-Policy" content="default-src * 'self' 'unsafe-inline' 'unsafe-eval' data: gap:">
+    <title>Reservatie</title>
+    <link rel="stylesheet" href="css/framework7.min.css">
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="apple-touch-icon" href="img/f7-icon-square.png">
+    <link rel="icon" href="img/f7-icon.png"> </head>
+
+<body>
+    <div id="app">
+        <div class="statusbar"></div>
+        <div class="panel panel-left panel-cover">
+            <div class="page">
+                <div class="page-content">
+                    <div class="block-title">Ex MI2</div>
+                    <div class="block">
+                        <p></p>
+                    </div>
+                    <div class="list links-list">
+                        <ul>
+                            <li> <a href="/" class="panel-close">Home</a> </li>
+                            <li> <a href="/about/" class="panel-close">Project</a> </li>
+                            <li> <a href="/404/" class="panel-close">Btw</a> </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="view view-main view-init ios-edges" data-url="/">
+            <div class="page">
+                <div class="navbar">
+                    <div class="navbar-inner sliding">
+                        <div class="title">Login</div>
+                    </div>
+                </div>
+                <div class="page-content login-screen-content">
+                    <div class="login-screen-title">Welkom</div>
+                    <form>
+                        <div class="list">
+                            <ul>
+                                <li class="item-content item-input">
+                                    <div class="item-inner">
+                                        <div class="item-title item-label">E-mail adres</div>
+                                        <div class="item-input-wrap">
+                                            <input type="text" name="username" id="demo-username-1" placeholder="Uw e-mail adres"> <span class="input-clear-button"></span> </div>
+                                    </div>
+                                </li>
+                                <li class="item-content item-input">
+                                    <div class="item-inner">
+                                        <div class="item-title item-label">Wachtwoord</div>
+                                        <div class="item-input-wrap">
+                                            <input type="password" name="password" id="demo-password-1" placeholder="Uw wachtwoord"> <span class="input-clear-button"></span> </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="list">
+                            <ul>
+                                <li><a href="#" class="item-link list-button" @click="signIn">Log in</a></li>
+                            </ul>
+                            <div class="block-footer">Nog geen account? Klik hier om te registreren.
+                                <br>Wachtwoord vergeten? Klik hier.</div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <script>
+                var username;
+                var password;
+                if (username == "test" && password = "test")
+                    {
+                        alert("test");
+                    }
+                /*
+                return {
+                    methods: {
+                        signIn: function () {
+                            var $ = this.$;
+                            var app = this.$app;
+                            var username = $('test').val();
+                            var password = $('test').val();
+                            app.dialog.alert('Username: ' + username + '<br>Password: ' + password, function () {
+                                app.loginScreen.close();
+                            })
+                        }
+                    }
+                }
+                */
+            </script>
+        </div>
+    </div>
+    <script src="js/framework7.min.js"></script>
+    <script src="js/routes.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
