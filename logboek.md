@@ -80,9 +80,16 @@
 
 ## week 7
 
-### 09/11/2018
+### 08/11/2018
+* 1h40 gewerkt
 * ik heb nog een paar andere pagina's aangemaakt met Framework 7
 * orde toegevoegd in de map, bv alles wat met accounts te maken heeft zoals registreer.html wordt account_registreer.html
 * registreer pagina gemaakt, paar CSS zaken moeten nog aangepast worden
 * bestel pagina een deel van gemaakt, helemaal nog niet af, wanneer we op een afbeelding zouden klikken zou er een pop up van de afbeelding zelf gemaakt moeten worden en waar je beneden met pijltjes kan navigeren tussen de foto's
 * in welke fase de bestelling is heb ik die pagina ook al gemaakt, er staan enkel de foto's en de streepjes tussen de foto's, voor de rest moet er nog aan de CSS gewerkt worden en de code erachter ook nog
+
+### 09/11/2018
+* 1h gewerkt
+* ik heb de menu pagina gemaakt voor de klant, admin en werknemer
+* ik heb de opmaak gemaakt voor iets dat ik niet vond bij Framework 7 zelf, ook heb ik een paar zaken in de CSS van Framework 7 zelf veranderd (kleur en text-align)
+* ik heb de reservatie klant valideren pagina gemaakt
