@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, viewport-fit=cover">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="theme-color" content="#2196f3">
+    <meta http-equiv="Content-Security-Policy" content="default-src * 'self' 'unsafe-inline' 'unsafe-eval' data: gap:">
+    <title>Reservatie</title>
+    <link rel="stylesheet" href="css/framework7.min.css">
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/opmaak.css">
+    <link rel="apple-touch-icon" href="img/f7-icon-square.png">
+    <link rel="icon" href="img/f7-icon.png"> </head>
+
+<body>
+    <div id="app">
+        <!-- Status bar overlay for fullscreen mode-->
+        <div class="statusbar"></div>
+        <!-- Left panel with cover effect-->
+        <div class="panel panel-left panel-cover theme-dark">
+            <div class="view">
+                <div class="page">
+                    <div class="navbar">
+                        <div class="navbar-inner">
+                            <div class="title">Menu</div>
+                        </div>
+                    </div>
+                    <div class="page-content">
+                        <div class="block"> <a href="/register/" class="item-content item-link panel-close">Register</a> </div>
+                        <div class="block"> <a href="/login/" class="item-content item-link panel-close">Login</a> </div>
+                        <div class="block"> <a href="/forgotPassword/" class="item-content item-link panel-close">Forgot Password</a> </div>
+                        <div class="block"> <a href="/order/" class="item-content item-link panel-close">Order</a> </div>
+                        <div class="block"> <a href="/orderValidate/" class="item-content item-link panel-close">Validate order(nog geen content)</a> </div>
+                        <div class="block"> <a href="/orderTimeLine/" class="item-content item-link panel-close">Order Timeline</a> </div>
+                        <div class="block"> <a href="/choice/" class="item-content item-link panel-close">Choice</a> </div>
+                        <div class="block"> <a href="/choiceAdmin/" class="item-content item-link panel-close">Choice admin</a> </div>
+                        <div class="block"> <a href="/choiceEmployee/" class="item-content item-link panel-close">Choice employee</a> </div>
+                        <div class="block"> <a href="/reservationClientValidate/" class="item-content item-link panel-close">Validate client</a> </div>
+                        <div class="block"> <a href="/reservation/" class="item-content item-link panel-close">Reservation</a> </div>
+                        <div class="block"> <a href="/view_employees/" class="item-content item-link panel-close">View Employees</a> </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Views/Tabs container -->
+        <div class="views  ios-edges">
+            <!-- Tabbar for switching views-tabs -->
+            <div class="toolbar tabbar-labels toolbar-bottom-md">
+                <div class="toolbar-inner">
+                    <a href="/index/" class="tab-link"> <i class="icon f7-icons ios-only">account_box</i> <i class="icon f7-icons ios-only icon-ios-fill">account_box</i> <i class="icon material-icons md-only">account_box</i> <span class="tabbar-label">Login</span> </a>
+                    <a href="/register/" class="tab-link"> <i class="icon f7-icons ios-only">list</i> <i class="icon f7-icons ios-only icon-ios-fill">list_fill</i> <i class="icon material-icons md-only">view_list</i> <span class="tabbar-label">Register</span> </a>
+                    <a href="/forgotpassword/" class="tab-link"> <i class="icon f7-icons ios-only">account_box</i> <i class="icon f7-icons ios-only icon-ios-fill">account_box</i> <i class="icon material-icons md-only">account_box</i> <span class="tabbar-label">Forgot Password</span> </a>
+                </div>
+            </div>
+            <!-- Your main view/tab, should have "view-main" class. It also has "tab-active" class -->
+            <div id="view-home" class="view view-main tab tab-active">
+                <!-- Page, data-name contains page name which can be used in page callbacks -->
+                <div class="page" data-name="home">
+                    <!-- Top Navbar -->
+                    <div class="navbar">
+                        <div class="navbar-inner">
+                            <div class="left">
+                                <a href="#" class="link icon-only panel-open" data-panel="left"> <i class="icon f7-icons ios-only">menu</i> <i class="icon material-icons md-only">menu</i> </a>
+                            </div>
+                            <div class="title sliding">Home</div>
+                            <div class="right">
+                                <a href="#" class="link icon-only panel-open" data-panel="right"> <i class="icon f7-icons ios-only">meFnu</i> </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="page-content">
+                        <div class="page-content login-screen-content">
+                            <div class="page-content">
+                                <div class="block block-strong">
+                                    <div class="row">
+                                        <div class="col-33">
+                                            <a href="#" class="button button-raised" @click="openPopup"> <img id="fotoBacon" src="./img/eten/bacon-wrapped-dates_pintxo_amber-fouts_mag.jpg" alt="eten"></a>
+                                        </div>
+                                        <div class="col-33">
+                                            <a href="#" class="button button-raised" @click="openPopup"> <img id="fotoHamburger" src="img/eten/hamburger.jpg" alt="eten"></a>
+                                        </div>
+                                        <div class="col-33">
+                                            <a href="#" class="button button-raised" @click="openPopup"> <img id="fotoLanding" src="./img/eten/landing_lasagna.jpg" alt="eten"></a>
+                                        </div>
+                                        <div class="col-33">
+                                            <a href="#" class="button button-raised" @click="openPopup"> <img id="fotoPaella" src="./img/eten/paella.jpg" alt="eten"></a>
+                                        </div>
+                                        <div class="col-33">
+                                            <a href="#" class="button button-raised" @click="openPopup"> <img id="fotoPesto" src="./img/eten/pestotomatopasta.jpg" alt="eten"></a>
+                                        </div>
+                                        <div class="col-33">
+                                            <a href="#" class="button button-raised" @click="openPopup"> <img id="fotoShutter" src="./img/eten/shutterstock.jpg" alt="eten"></a>
+                                        </div>
+                                        <div class="col-33">
+                                            <a href="#" class="button button-raised" @click="openPopup"> <img id="fotoSpaghetti" src="./img/eten/spaghetti.jpg" alt="eten"></a>
+                                        </div>
+                                        <div class="col-33">
+                                            <a href="#" class="button button-raised" @click="openPopup"> <img id="fotoTortilla" src="./img/eten/tortilla.jpg" alt="eten"></a>
+                                        </div>
+                                        <div class="col-33"><a href="#" onclick="check();" class="item-link list-button login-button">Sign In</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/framework7.min.js"></script>
+    <script src="js/routes.js"></script>
+    <script src="js/app.js"></script>
+</body>
+<script>
+    return {
+        data: function () {
+            return {
+                photos: [
+                    {
+                        url: 'img/beach.jpg'
+                        , caption: 'Amazing beach in Goa, India'
+          }
+          , 'http://placekitten.com/1024/1024'
+          , 'img/lock.jpg'
+                    , {
+                        url: 'img/monkey.jpg'
+                        , caption: 'I met this monkey in Chinese mountains'
+          }
+                    , {
+                        url: 'img/mountains.jpg'
+                        , caption: 'Beautiful mountains in Zhangjiajie, China'
+          }
+        ]
+            , }
+        }
+        , methods: {
+            openStandalone: function () {
+                const self = this;
+                self.standalone.open();
+            }
+            , openPopup: function () {
+                const self = this;
+                self.popup.open();
+            }
+            , openPage: function () {
+                const self = this;
+                self.page.open();
+            }
+            , openStandaloneDark: function () {
+                const self = this;
+                self.standaloneDark.open();
+            }
+            , openPopupDark: function () {
+                const self = this;
+                self.popupDark.open();
+            }
+            , openPageDark: function () {
+                const self = this;
+                self.pageDark.open();
+            }
+        , }
+        , on: {
+            pageInit: function () {
+                const self = this;
+                // Create PBs when page init
+                self.standalone = self.$app.photoBrowser.create({
+                    photos: self.photos
+                , });
+                self.popup = self.$app.photoBrowser.create({
+                    photos: self.photos
+                    , type: 'popup'
+                , });
+                self.page = self.$app.photoBrowser.create({
+                    photos: self.photos
+                    , type: 'page'
+                    , backLinkText: 'Back'
+                , });
+                self.standaloneDark = self.$app.photoBrowser.create({
+                    photos: self.photos
+                    , theme: 'dark'
+                , });
+                self.popupDark = self.$app.photoBrowser.create({
+                    photos: self.photos
+                    , type: 'popup'
+                    , theme: 'dark'
+                , });
+                self.pageDark = self.$app.photoBrowser.create({
+                    photos: self.photos
+                    , type: 'page'
+                    , backLinkText: 'Back'
+                    , theme: 'dark'
+                , });
+            }
+            , pageBeforeRemove: function () {
+                const self = this;
+                // Destroy PBs on page remove
+                self.standalone.destroy();
+                self.popup.destroy();
+                self.page.destroy();
+                self.standaloneDark.destroy();
+                self.popupDark.destroy();
+                self.pageDark.destroy();
+            }
+        , }
+    };
+</script>
+</html>
+
+    <!--
+        
+        
+          <div class="page">
+    <div class="navbar">
+      <div class="navbar-inner sliding">
+        <div class="left">
+          <a href="#" class="link back">
+            <i class="icon icon-back"></i>
+            <span class="ios-only">Back</span>
+          </a>
+        </div>
+        <div class="title">Photo Browser</div>
+      </div>
+    </div>
+    <div class="page-content">
+      <div class="block block-strong">
+        <p>Photo Browser could be opened in a three ways - as a Standalone component (Popup modification), in Popup, and as separate Page:</p>
+        <div class="row">
+          <div class="col-33"><a href="#" class="button button-raised" @click="openStandalone">Standalone</a></div>
+          <div class="col-33"><a href="#" class="button button-raised" @click="openPopup">Popup</a></div>
+          <div class="col-33"><a href="#" class="button button-raised" @click="openPage">Page</a></div>
+        </div>
+      </div>
+      <div class="popup photo-browser-popup modal-in" style="display: block;"><div class="photo-browser photo-browser-light">
+        <div class="view">
+          <div class="page photo-browser-page photo-browser-page-light no-toolbar " data-name="photo-browser-page">
+            <div class="navbar">
+        <div class="navbar-inner sliding">
+          <div class="left">
+            <a href="#" class="link popup-close  " data-popup=".photo-browser-popup">
+              <i class="icon icon-back "></i>
+              <span>Close</span>
+            </a>
+          </div>
+          <div class="title" style="left: -31px;">
+            <span class="photo-browser-current">1</span>
+            <span class="photo-browser-of">of</span>
+            <span class="photo-browser-total">5</span>
+          </div>
+          <div class="right"></div>
+        </div>
+      </div>
+            <div class="toolbar tabbar toolbar-bottom-md">
+        <div class="toolbar-inner">
+          <a href="#" class="link photo-browser-prev swiper-button-disabled" tabindex="0" role="button" aria-label="Previous slide" aria-disabled="true">
+            <i class="icon icon-back "></i>
+          </a>
+          <a href="#" class="link photo-browser-next" tabindex="0" role="button" aria-label="Next slide" aria-disabled="false">
+            <i class="icon icon-forward "></i>
+          </a>
+        </div>
+      </div>
+            <div class="photo-browser-captions photo-browser-captions-light">
+              <div class="photo-browser-caption photo-browser-caption-active" data-caption-index="0">
+        Amazing beach in Goa, India
+      </div>   <div class="photo-browser-caption" data-caption-index="3">
+        I met this monkey in Chinese mountains
+      </div> <div class="photo-browser-caption" data-caption-index="4">
+        Beautiful mountains in Zhangjiajie, China
+      </div>
+            </div>
+            <div class="photo-browser-swiper-container swiper-container swiper-container-virtual swiper-container-horizontal">
+              <div class="photo-browser-swiper-wrapper swiper-wrapper">
+                
+              <div class="photo-browser-slide swiper-slide swiper-slide-active" data-swiper-slide-index="0" style="left: 0px; width: 320px; margin-right: 20px;">
+          
+          <span class="swiper-zoom-container">
+              <img class="swiper-lazy swiper-lazy-loaded" src="img/beach.jpg">
+          </span>
+      </div><div class="photo-browser-slide photo-browser-slide-lazy swiper-slide swiper-slide-next" data-swiper-slide-index="1" style="left: 0px; width: 320px; margin-right: 20px;">
+          <div class="preloader swiper-lazy-preloader "></div>
+          <span class="swiper-zoom-container">
+              <img data-src="http://placekitten.com/1024/1024" class="swiper-lazy">
+          </span>
+      </div></div>
+            <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
+          </div>
+        </div>
+      </div></div>
+    </div>
+  </div>
+<script>
+  return {
+    data: function () {
+      return {
+        photos: [
+          {
+            url: 'img/beach.jpg',
+            caption: 'Amazing beach in Goa, India'
+          },
+          'http://placekitten.com/1024/1024',
+          'img/lock.jpg',
+          {
+            url: 'img/monkey.jpg',
+            caption: 'I met this monkey in Chinese mountains'
+          },
+          {
+            url: 'img/mountains.jpg',
+            caption: 'Beautiful mountains in Zhangjiajie, China'
+          }
+        ],
+      }
+    },
+    methods: {
+      openStandalone: function () {
+        const self = this;
+        self.standalone.open();
+      },
+      openPopup: function () {
+        const self = this;
+        self.popup.open();
+      },
+      openPage: function () {
+        const self = this;
+        self.page.open();
+      },
+      openStandaloneDark: function () {
+        const self = this;
+        self.standaloneDark.open();
+      },
+      openPopupDark: function () {
+        const self = this;
+        self.popupDark.open();
+      },
+      openPageDark: function () {
+        const self = this;
+        self.pageDark.open();
+      },
+    },
+    on: {
+      pageInit: function () {
+        const self = this;
+        // Create PBs when page init
+        self.standalone = self.$app.photoBrowser.create({
+          photos: self.photos,
+        });
+        self.popup = self.$app.photoBrowser.create({
+          photos: self.photos,  
+          type: 'popup',
+        });
+        self.page = self.$app.photoBrowser.create({
+          photos: self.photos,
+          type: 'page',
+          backLinkText: 'Back',
+        });
+        self.standaloneDark = self.$app.photoBrowser.create({
+          photos: self.photos,
+          theme: 'dark',
+        });
+        self.popupDark = self.$app.photoBrowser.create({
+          photos: self.photos,
+          type: 'popup',
+          theme: 'dark',
+        });
+        self.pageDark = self.$app.photoBrowser.create({
+          photos: self.photos,
+          type: 'page',
+          backLinkText: 'Back',
+          theme: 'dark',
+        });
+      },
+      pageBeforeRemove: function () {
+        const self = this;
+        // Destroy PBs on page remove
+        self.standalone.destroy();
+        self.popup.destroy();
+        self.page.destroy();
+        self.standaloneDark.destroy();
+        self.popupDark.destroy();
+        self.pageDark.destroy();
+      },
+    }
+  };
+</script>
+-->
