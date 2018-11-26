@@ -17,85 +17,106 @@
 
 <body>
     <div id="app">
+        <!-- Status bar overlay for fullscreen mode-->
         <div class="statusbar"></div>
-        <div class="panel panel-left panel-cover">
-            <div class="page">
-                <div class="page-content">
-                    <div class="block-title">Ex MI2</div>
-                    <div class="block">
-                        <p></p>
+        <!-- Left panel with cover effect-->
+        <div class="panel panel-left panel-cover theme-dark">
+            <div class="view">
+                <div class="page">
+                    <div class="navbar">
+                        <div class="navbar-inner">
+                            <div class="title">Menu</div>
+                        </div>
                     </div>
-                    <div class="list links-list">
-                        <ul>
-                            <li> <a href="/" class="panel-close">Home</a> </li>
-                            <li> <a href="/about/" class="panel-close">Project</a> </li>
-                            <li> <a href="/404/" class="panel-close">Btw</a> </li>
-                        </ul>
+                    <div class="page-content">
+                        <div class="block"> <a href="/register/" class="item-content item-link panel-close">Register</a> </div>
+                        <div class="block"> <a href="/login/" class="item-content item-link panel-close">Login</a> </div>
+                        <div class="block"> <a href="/forgotPassword/" class="item-content item-link panel-close">Forgot Password</a> </div>
+                        <div class="block"> <a href="/order/" class="item-content item-link panel-close">Order</a> </div>
+                        <div class="block"> <a href="/orderValidate/" class="item-content item-link panel-close">Validate order(nog geen content)</a> </div>
+                        <div class="block"> <a href="/orderTimeLine/" class="item-content item-link panel-close">Order Timeline</a> </div>
+                        <div class="block"> <a href="/choice/" class="item-content item-link panel-close">Choice</a> </div>
+                        <div class="block"> <a href="/choiceAdmin/" class="item-content item-link panel-close">Choice admin</a> </div>
+                        <div class="block"> <a href="/choiceEmployee/" class="item-content item-link panel-close">Choice employee</a> </div>
+                        <div class="block"> <a href="/reservationClientValidate/" class="item-content item-link panel-close">Validate client</a> </div>
+                        <div class="block"> <a href="/reservation/" class="item-content item-link panel-close">Reservation</a> </div>
+                        <div class="block"> <a href="/view_employees/" class="item-content item-link panel-close">View Employees</a> </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="view view-main view-init ios-edges" data-url="/">
-            <div class="page">
-                <div class="navbar">
-                    <div class="navbar-inner sliding">
-                        <div class="title">Login</div>
-                    </div>
-                </div>
-                <div class="page-content login-screen-content">
-                    <div class="login-screen-title">Welkom</div>
-                    <form>
-                        <div class="list">
-                            <ul>
-                                <li class="item-content item-input">
-                                    <div class="item-inner">
-                                        <div class="item-title item-label">E-mail adres</div>
-                                        <div class="item-input-wrap">
-                                            <input type="text" name="username" id="demo-username-1" placeholder="Uw e-mail adres"> <span class="input-clear-button"></span> </div>
-                                    </div>
-                                </li>
-                                <li class="item-content item-input">
-                                    <div class="item-inner">
-                                        <div class="item-title item-label">Wachtwoord</div>
-                                        <div class="item-input-wrap">
-                                            <input type="password" name="password" id="demo-password-1" placeholder="Uw wachtwoord"> <span class="input-clear-button"></span> </div>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="list">
-                            <ul>
-                                <li><a href="#" class="item-link list-button" @click="signIn">Log in</a></li>
-                            </ul>
-                            <div class="block-footer">Nog geen account? Klik hier om te registreren.
-                                <br>Wachtwoord vergeten? Klik hier.</div>
-                        </div>
-                    </form>
+        <!-- Views/Tabs container -->
+        <div class="views  ios-edges">
+            <!-- Tabbar for switching views-tabs -->
+            <div class="toolbar tabbar-labels toolbar-bottom-md">
+                <div class="toolbar-inner">
+                    <a href="/index/" class="tab-link"> <i class="icon f7-icons ios-only">account_box</i> <i class="icon f7-icons ios-only icon-ios-fill">account_box</i> <i class="icon material-icons md-only">account_box</i> <span class="tabbar-label">Login</span> </a>
+                    <a href="/register/" class="tab-link"> <i class="icon f7-icons ios-only">list</i> <i class="icon f7-icons ios-only icon-ios-fill">list_fill</i> <i class="icon material-icons md-only">view_list</i> <span class="tabbar-label">Register</span> </a>
+                    
+                    <a href="/forgotpassword/" class="tab-link"> <i class="icon f7-icons ios-only">account_box</i> <i class="icon f7-icons ios-only icon-ios-fill">account_box</i> <i class="icon material-icons md-only">account_box</i> <span class="tabbar-label">Forgot Password</span> </a>
                 </div>
             </div>
-            <script>
-                var username;
-                var password;
-                if (username == "test" && password = "test")
-                    {
-                        alert("test");
-                    }
-                /*
-                return {
-                    methods: {
-                        signIn: function () {
-                            var $ = this.$;
-                            var app = this.$app;
-                            var username = $('test').val();
-                            var password = $('test').val();
-                            app.dialog.alert('Username: ' + username + '<br>Password: ' + password, function () {
-                                app.loginScreen.close();
-                            })
-                        }
-                    }
-                }
-                */
-            </script>
+            <!-- Your main view/tab, should have "view-main" class. It also has "tab-active" class -->
+            <div id="view-home" class="view view-main tab tab-active">
+                <!-- Page, data-name contains page name which can be used in page callbacks -->
+                <div class="page" data-name="home">
+                    <!-- Top Navbar -->
+                    <div class="navbar">
+                        <div class="navbar-inner">
+                            <div class="left">
+                                <a href="#" class="link icon-only panel-open" data-panel="left"> <i class="icon f7-icons ios-only">menu</i> <i class="icon material-icons md-only">menu</i> </a>
+                            </div>
+                            <div class="title sliding">Home</div>
+                            <div class="right">
+                                <a href="#" class="link icon-only panel-open" data-panel="right"> <i class="icon f7-icons ios-only">meFnu</i> </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="page-content">
+        <div class="page-content login-screen-content">
+            <div class="login-screen-title">Login</div>
+            <div class="list">
+                <ul>
+                    <li class="item-content item-input">
+                        <div class="item-inner">
+                            <div class="item-title item-label">Username</div>
+                            <div class="item-input-wrap">
+                                <input type="text" name="logemail" placeholder="Your username" id="logemail"> </div>
+                        </div>
+                    </li>
+                    <li class="item-content item-input">
+                        <div class="item-inner">
+                            <div class="item-title item-label">Password</div>
+                            <div class="item-input-wrap">
+                                <input type="password" name="logpassword" placeholder="Your password" id="logpassword"> </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a class="item-link smart-select smart-select-init" data-open-in="sheet">
+                            <select id="usrlevel" name="mac-windows">
+                                <option value="klant" selected>Klant</option>
+                                <option value="admin">Admin</option>
+                            </select>
+                            <div class="item-content">
+                                <div class="item-inner">
+                                    <div class="item-title">Klant or Admin</div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="list">
+                <ul>
+                    <li> <a href="#" onclick="login();" class="item-link list-button login-button">Sign In</a> </li>
+                </ul>
+                <div class="block-footer">Click here om te registreren</div>
+            </div>
+        </div>
+    </div>
+                </div>
+                
+            </div>
         </div>
     </div>
     <script src="js/framework7.min.js"></script>
@@ -103,4 +124,4 @@
     <script src="js/app.js"></script>
 </body>
 
-</html>
+</html> 

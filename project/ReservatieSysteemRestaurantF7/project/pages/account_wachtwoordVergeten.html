@@ -1,32 +1,35 @@
-<div class="page">
+<div class="page" data-name="register">
     <div class="navbar">
         <div class="navbar-inner sliding">
             <div class="left">
-                <a href="/" class="link back"> <i class="icon icon-back"></i> <span class="ios-only">Back</span> </a>
+                <a href="#" class="link back"> <i class="icon icon-back"></i> <span class="ios-only">Back</span> </a>
             </div>
-            <div class="title">Reservatie</div>
+            <div class="title">Forgot password</div>
         </div>
     </div>
-    <div class="page-content login-screen-content">
-        <div class="login-screen-title">Wachtwoord vergeten</div>
-        <form>
+    <div class="page-content">
+        <div class="page-content login-screen-content">
+            <div class="login-screen-title">Forgot password</div>
             <div class="list">
                 <ul>
                     <li class="item-content item-input">
                         <div class="item-inner">
-                            <div class="item-title item-label">E-mail adres</div>
+                            <div class="item-title item-label">Username</div>
                             <div class="item-input-wrap">
-                                <input type="text" name="username" id="demo-username-1" placeholder="Uw e-mail adres"> <span class="input-clear-button"></span> </div>
+                                <input type="text" name="forgotEmail" placeholder="Your email" id="forgotEmail">
+                            </div>
                         </div>
                     </li>
                 </ul>
             </div>
             <div class="list">
                 <ul>
-                    <li><a href="#" class="item-link list-button" @click="signIn">Wachtwoord vergeten</a></li>
+                    <li> 
+                        <a href="#" onclick="forgotpassword();" class="item-link list-button login-button">click</a> 
+                    </li>
                 </ul>
-                <div class="block-footer">Nog geen account? Klik hier om te registreren. </div>
             </div>
-        </form>
+        </div>
     </div>
 </div>
+    
