@@ -78,7 +78,7 @@
 * 20min gewerkt
 * pagina's gemaakt in Framework 7
 
-## week 7
+## week 7 (2h40 gewerkt)
 
 ### 08/11/2018
 * 1h40 gewerkt
@@ -93,3 +93,29 @@
 * ik heb de menu pagina gemaakt voor de klant, admin en werknemer
 * ik heb de opmaak gemaakt voor iets dat ik niet vond bij Framework 7 zelf, ook heb ik een paar zaken in de CSS van Framework 7 zelf veranderd (kleur en text-align)
 * ik heb de reservatie klant valideren pagina gemaakt
+
+### 10/11/2018
+* 40 min gewerkt
+* hamburger menu gemaakt
+
+## week 8 (1h25 gewerkt)
+
+### 12/11/2018
+* 1h25 gewerkt
+* ik heb gezocht hoe we een mail kunnen sturen en hoe je dit schrijft in PHP
+* de PHP zou ik extern gaan oproepen met een link
+* ik heb geprobeerd de kalender in de pagina te zetten, maar dit is nog niet gelukt, ik moet hier verder paar zaken aan veranderen en aanpassen zodat het werkt
+* ik heb het uur toegevoegd
+
+## week 9 (1h gewerkt)
+
+### 19/11/2018
+* 1h gewerkt
+* vooral paar detail werk met de opmaak
+
+## week 10
+
+### 26/11/2018
+* 3h gewerkt
+* aan de css gewerkt van de bestel pagina (pagina waar je de menu's kan bekijken om te bestellen)
+* proberen de waarde terug te krijgen van een input box van de bestel pagina
