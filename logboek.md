@@ -117,5 +117,10 @@
 
 ### 26/11/2018
 * 3h gewerkt
-* aan de css gewerkt van de bestel pagina (pagina waar je de menu's kan bekijken om te bestellen)
+* aan de CSS gewerkt van de bestel pagina (pagina waar je de menu's kan bekijken om te bestellen)
 * proberen de waarde terug te krijgen van een input box van de bestel pagina
+
+### 27/11/2018
+* 40 min gewerkt
+* aan de CSS gewerkt van de bestel pagina
+* input en button van bestel pagina getets, voorlopig werkt het testen nog niet
