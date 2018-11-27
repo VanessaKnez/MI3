@@ -12,47 +12,53 @@
             <p>Prijs: &euro;5,00</p>
             <p>Ingredi&#235;nten: hesp</p>
             <input id="inputBaconWrapped" type="number">
-            <button class="col button button-fill color-black">Bestel</button>
+            <button id="btnBestel" class="col button button-fill color-black">Bestel</button>
         </div>
         <div class="fotoInformatie"> <img id="fotoHamburger" src="img/eten/hamburger.jpg" alt="eten">
             <p>Prijs: &euro;5,00</p>
             <p>Ingredi&#235;nten: hesp</p>
             <input type="number"> </div>
+        <button class="col button button-fill color-black">Bestel</button>
         <div class="fotoInformatie"> <img id="fotoLanding" src="./img/eten/landing_lasagna.jpg" alt="eten">
             <p>Prijs: &euro;5,00</p>
             <p>Ingredi&#235;nten: hesp</p>
             <input type="number"> </div>
+        <button class="col button button-fill color-black">Bestel</button>
         <div class="fotoInformatie"> <img id="fotoPaella" src="./img/eten/paella.jpg" alt="eten">
             <p>Prijs: &euro;5,00</p>
             <p>Ingredi&#235;nten: hesp</p>
             <input type="number"> </div>
+        <button class="col button button-fill color-black">Bestel</button>
         <div class="fotoInformatie"> <img id="fotoPesto" src="./img/eten/pestotomatopasta.jpg" alt="eten">
             <p>Prijs: &euro;5,00</p>
             <p>Ingredi&#235;nten: hesp</p>
             <input type="number"> </div>
+        <button class="col button button-fill color-black">Bestel</button>
         <div class="fotoInformatie"> <img id="fotoShutter" src="./img/eten/shutterstock.jpg" alt="eten">
             <p>Prijs: &euro;5,00</p>
             <p>Ingredi&#235;nten: hesp</p>
             <input type="number"> </div>
+        <button class="col button button-fill color-black">Bestel</button>
         <div class="fotoInformatie"> <img id="fotoSpaghetti" src="./img/eten/spaghetti.jpg" alt="eten">
             <p>Prijs: &euro;5,00</p>
             <p>Ingredi&#235;nten: hesp</p>
             <input type="number"> </div>
+        <button class="col button button-fill color-black">Bestel</button>
         <div class="fotoInformatie"> <img id="fotoTortilla" src="./img/eten/tortilla.jpg" alt="eten">
             <p>Prijs: &euro;5,00</p>
             <p>Ingredi&#235;nten: hesp</p>
             <input type="number"> </div>
+        <button class="col button button-fill color-black">Bestel</button>
     </div>
 </div>
 <script>
     "use strict";
     /* jshint esnext: true */
     $(document).ready(function () {
-        $("#StartNormaal").click(function () {
-        if(document.getElementById("inputBaconWrapped") == 1)
-            {
-                alert("test ok");
+            $("#btnBestel").click(function () {
+                    if (document.getElementById("inputBaconWrapped") == 1) {
+                        alert("test ok");
+                    }
             }
-        }
-    });
+        )};
 </script>
