@@ -12,53 +12,89 @@
             <p>Prijs: &euro;5,00</p>
             <p>Ingredi&#235;nten: hesp</p>
             <input id="inputBaconWrapped" type="number">
-            <button id="btnBestel" class="col button button-fill color-black">Bestel</button>
+            <button id="btnBestelBaconWrapped" onclick="_btnBestelBaconWrapped();" class="col button button-fill color-black">Bestel</button>
         </div>
         <div class="fotoInformatie"> <img id="fotoHamburger" src="img/eten/hamburger.jpg" alt="eten">
             <p>Prijs: &euro;5,00</p>
             <p>Ingredi&#235;nten: hesp</p>
             <input type="number"> </div>
-        <button class="col button button-fill color-black">Bestel</button>
+        <button id="btnBestelHamburger" onclick="_btnBestelHamburger();" class="col button button-fill color-black">Bestel</button>
         <div class="fotoInformatie"> <img id="fotoLanding" src="./img/eten/landing_lasagna.jpg" alt="eten">
             <p>Prijs: &euro;5,00</p>
             <p>Ingredi&#235;nten: hesp</p>
             <input type="number"> </div>
-        <button class="col button button-fill color-black">Bestel</button>
+        <button id="btnBestelLanding" onclick="_btnBestelLanding();" class="col button button-fill color-black">Bestel</button>
         <div class="fotoInformatie"> <img id="fotoPaella" src="./img/eten/paella.jpg" alt="eten">
             <p>Prijs: &euro;5,00</p>
             <p>Ingredi&#235;nten: hesp</p>
             <input type="number"> </div>
-        <button class="col button button-fill color-black">Bestel</button>
+        <button id="btnBestelPaella" onclick="_btnBestelPaella();" class="col button button-fill color-black">Bestel</button>
         <div class="fotoInformatie"> <img id="fotoPesto" src="./img/eten/pestotomatopasta.jpg" alt="eten">
             <p>Prijs: &euro;5,00</p>
             <p>Ingredi&#235;nten: hesp</p>
             <input type="number"> </div>
-        <button class="col button button-fill color-black">Bestel</button>
+        <button id="btnBestelPesto" onclick="_btnBestelPesto();" class="col button button-fill color-black">Bestel</button>
         <div class="fotoInformatie"> <img id="fotoShutter" src="./img/eten/shutterstock.jpg" alt="eten">
             <p>Prijs: &euro;5,00</p>
             <p>Ingredi&#235;nten: hesp</p>
             <input type="number"> </div>
-        <button class="col button button-fill color-black">Bestel</button>
+        <button id="btnBestelShutter" onclick="_btnBestelShutter();" class="col button button-fill color-black">Bestel</button>
         <div class="fotoInformatie"> <img id="fotoSpaghetti" src="./img/eten/spaghetti.jpg" alt="eten">
             <p>Prijs: &euro;5,00</p>
             <p>Ingredi&#235;nten: hesp</p>
             <input type="number"> </div>
-        <button class="col button button-fill color-black">Bestel</button>
+        <button id="btnBestelSpaghetti" onclick="_btnBestelSpaghetti();" class="col button button-fill color-black">Bestel</button>
         <div class="fotoInformatie"> <img id="fotoTortilla" src="./img/eten/tortilla.jpg" alt="eten">
             <p>Prijs: &euro;5,00</p>
             <p>Ingredi&#235;nten: hesp</p>
             <input type="number"> </div>
-        <button class="col button button-fill color-black">Bestel</button>
+        <button id="btnBestelTortilla" onclick="_btnBestelTortilla();" class="col button button-fill color-black">Bestel</button>
     </div>
 </div>
 <script>
+    var $$ = DOM7;
     "use strict";
     /* jshint esnext: true */
+    function krijgInput(){
+        var waarde = document.getElementById("inputBaconWrapped").value;
+        alert(waarde);
+    }
+    
+    function _btnBestelBaconWrapped() {
+        krijgInput()
+    }
+    function _btnBestelHamburger() {
+        krijgInput()
+    }
+    function _btnBestelLanding() {
+        krijgInput()
+    }
+    function _btnBestelPaella() {
+        krijgInput()
+    }
+    function _btnBestelPesto() {
+        krijgInput()
+    }
+    function _btnBestelShutter() {
+        krijgInput()
+    }
+    function _btnBestelSpaghetti() {
+        krijgInput()
+    }
+    function _btnBestelTortilla() {
+        krijgInput()
+    }
+    
+    
+    // DOM7 = $$ | jquery = $ --> zetten in ergens
     $(document).ready(function () {
-            $("#btnBestel").click(function () {
-                    if (document.getElementById("inputBaconWrapped") == 1) {
-                        alert("test ok");
-                    }
+        $("#btnBestelBaconWrapped").click(function () {
+            if (document.getElementById("inputBaconWrapped") == 1) {
+                alert("test ok");
             }
-        )};
+            else {
+                alert("not ok");
+            }
+        });
+    });
 </script>
