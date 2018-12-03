@@ -1,4 +1,4 @@
-# Logboek Vanessa Knez r0698813 2TI2
+# Logboek Vanessa Knez r0698813 2TI2 (totaal 26h10)
 ## week 1 (13h40 gewerkt)
 ### 24/09/2018
 * 40 minuten gewerkt
@@ -113,7 +113,7 @@
 * 1h gewerkt
 * vooral paar detail werk met de opmaak
 
-## week 10
+## week 10 (3h40 gewerkt)
 
 ### 26/11/2018
 * 3h gewerkt
@@ -124,3 +124,9 @@
 * 40 min gewerkt
 * aan de CSS gewerkt van de bestel pagina
 * input en button van bestel pagina getets, voorlopig werkt het testen nog niet
+
+## week 11
+
+### 02/12/2018
+* 2h gewerkt
+* input lezen van de input boxen in de bestel pagina met een alert
