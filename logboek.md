@@ -1,4 +1,4 @@
-# Logboek Vanessa Knez r0698813 2TI2 (totaal 26h10)
+# Logboek Vanessa Knez r0698813 2TI2 (totaal 50h50)
 ## week 1 (13h40 gewerkt)
 ### 24/09/2018
 * 40 minuten gewerkt
@@ -123,10 +123,77 @@
 ### 27/11/2018
 * 40 min gewerkt
 * aan de CSS gewerkt van de bestel pagina
-* input en button van bestel pagina getets, voorlopig werkt het testen nog niet
+* input en button van bestel pagina getest, voorlopig werkt het testen nog niet
 
-## week 11
+## week 11 (2h gewerkt)
 
 ### 02/12/2018
 * 2h gewerkt
 * input lezen van de input boxen in de bestel pagina met een alert
+
+## week 13 (2h gewerkt)
+
+### 16/12/2018
+* 2h gewerkt
+* geprobeerd om met android studio te werken
+
+## week 14 (13h gewerkt)
+
+### 20/12/2018
+* 2h gewerkt
+* aan de PID gewerkt
+
+### 21/12/2018
+* 1h30 gewerkt
+* verder aan de PID gewerkt
+
+### 22/12/2018
+* 1h30 gewerkt
+* aan de documenten gewerkt die de projecten bespreken
+
+### 13/12/2018
+* 8h gewerkt
+* aan de PID nog eens gewerkt, voornamelijk nog aanpassen en nakijken
+* aan de documenten gewerkt die de projecten bespreken, hier was er veel werk aan want de vorige dag stond er al niet zo veel in de documenten
+* aan de native app nog gewerkt, maar het programma heeft gecrasht
+
+## week 17 (5h gewerkt)
+
+### 11/01/2019
+* 5h gewerkt
+* aan de native gewerkt en hulp gevraagd aan andere medestudenten
+* ik heb een iets anders gedaan dan de keer ervoor dat ik de native wou maken, ik denk dat dit de oorzaak was dat niks werkt en het uiteindelijk crashte
+* ik heb een paar zaken getest met de layout om te zien hoe het werkt, in het begin was het even wennen maar daarna was ik er redelijk "vlug" weg mee
+
+## week 18
+
+### 14/01/2019
+* 6h gewerkt
+* op een youtube video heb ik gezien dat we xml code konden aanpassen door te schrijven, al de rest van de video heb ik niet geluisterd. https://www.youtube.com/watch?v=4N4bCdyGcUc
+* ik had problemen met de apk en" Could not access the Package Manager.  Is the system running?"
+* ik heb Android Studio opnieuw geïnstalleerd omdat ik te veel errors kreeg
+
+### 15/01/2019
+* 8h gewerkt
+* alles opnieuw in Android Studio doen
+* na het opnieuw opstarten heb ik rustig 1 knop toegevoegd, log in, dit werkte
+* na de knop log in heb ik de knop wachtwoord vergeten toegevoegd, dit werkte ook
+* knoppen testen, link gevonden op YouTube die het toont maar die het ook uitlegt. https://www.youtube.com/watch?v=aE5f1tV5nU4
+
+### 18/01/2019
+* 10h gewerkt
+* videos gevolgd om bepaalde zaken beter te begrijpen, het heeft wat geduurd om defitige videos te vinden
+* input velden getest, de waarden worden doorgegeven in een soort van alert (toast)
+* andere manier van layout gedaan, ik wou eerst dat gedeelde van de video niet volgen maar anders kon ik geen error bericht net onder het veld doen, uiteindelijk lijkt het mij toch beter.
+https://www.youtube.com/watch?v=veOZTvAdzJ8
+* email adres herkennen, dus "x@x.x", we moeten de @ en de . hebben, voor de rest wordt er niet werkelijk gecontroleerd of de email adres wel werkelijk bestaat
+* wachtwoord moet minimum vier karakters hebben
+* naar een nieuwe activity kunnen gaan
+* kleuren veranderd in colors.xml
+* hamburger menu maken gevonden op YouTube.
+https://www.youtube.com/watch?v=FDUjGUZRdao
+
+### 19/01/2019
+* 3h gewerkt
+* met hamburger menu kunnen navigeren, youtube video gevolgd, want ik begreep er niks van, de youtuber probeerde het wel goed uit te leggen. Nadat ik de video heb bekeken heb ik het wat beter begrepen. Dit deel lijkt eigenlijk een beetje op C#, daarmee dat ik een stuk vlugger begreep dan andere zaken.
+https://www.youtube.com/watch?v=bjYstsO1PgI
