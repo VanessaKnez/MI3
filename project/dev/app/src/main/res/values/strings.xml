@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">boeken</string>
+    <string name="Button">Log in</string>
+    <string name="button">Wachtwoord vergeten</string>
+    <string name="welcome_please_log_in">Welcome! Please log in</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+</resources>
