@@ -194,6 +194,23 @@ https://www.youtube.com/watch?v=veOZTvAdzJ8
 https://www.youtube.com/watch?v=FDUjGUZRdao
 
 ### 19/01/2019
-* 3h gewerkt
+* 12h gewerkt
 * met hamburger menu kunnen navigeren, youtube video gevolgd, want ik begreep er niks van, de youtuber probeerde het wel goed uit te leggen. Nadat ik de video heb bekeken heb ik het wat beter begrepen. Dit deel lijkt eigenlijk een beetje op C#, daarmee dat ik een stuk vlugger begreep dan andere zaken.
 https://www.youtube.com/watch?v=bjYstsO1PgI
+* fragmenten opgemaakt
+* scroll toegevoegd bij de fragementen
+* bepaalde input velden weg doen bij profiel die geen meerwaarde hadden als informatie
+* commentaar bij de code toegevoegd
+* gebruiker string Test@test.test en wachtwoord Test gemaakt om aan te melden met enkel dit account, in het begin wouden mijn condities niet werken, op het einde heb ik gekeken of er niet een equals functie was ipv == te gebruiken. Dit was en heb dus dit gebruikt.
+* video's bekeken hoe ik ervoor kan zorgen dat enkel de email adressen in de array toegelaten worden. Ik heb hier veel tijd mee verloren. Zelfs de YouTuber die super veel zaken uitlegt en niet enkel gewoon stom het antwoord geeft heeft dit niet uitgelegd.
+https://www.youtube.com/watch?v=jcliHGR3CHo
+* om de array op te lossen heb ik het handmatig geschreven, in plaats van dat de lengte automatisch gekend word. Dus als email gelijk is aan plaats 0, of gelijk aan plaats 1 of plaats 2 of plaats 3
+* geprobeerd om de input van de chat te tonen in een toast, maar omdat het in een fragment is en niet in een activity moet de code anders geschreven worden. Ik heb wat problemen om deftige manieren te vinden. Ik heb geprobeerd om een beetje alle methodes te testen die beschikbaar zijn om een alternatief te vinden.
+
+### 20/01/2019
+* 4h gewerkt
+* nog steeds bezig met de input van de chat. Daarna ben ik gaan zoeken op het internet.
+https://www.dreamincode.net/forums/topic/396060-cannot-resolve-method-maketext/
+* wanneer ik een if wil doen om te controleren of de input veld van de chat bericht niet leeg is krijg ik een error, er is een probleem met de if else. Ik had het probleem niet gevonden en was op internet gaan kijken omdat ik echt geen mogelijke oplossing vond.
+https://stackoverflow.com/questions/30996474/check-if-edittext-empty-in-android-edittext-and-fragment
+* nu dat de if else werkt heb ik terug geprobeerd om de input te tonen in een toast, en deze keer is het wel gelukt
