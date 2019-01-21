@@ -1,4 +1,4 @@
-# Logboek Vanessa Knez r0698813 2TI2 (totaal 98h50)
+# Logboek Vanessa Knez r0698813 2TI2 (totaal 106h50)
 ## week 1 (13h40 gewerkt)
 ### 24/09/2018
 * 40 minuten gewerkt
@@ -222,10 +222,15 @@ https://www.youtube.com/watch?v=17NbUcEts9c&index=2&list=PLrnPJCHvNZuBtTYUuc5Pyo
 * nu ben ik aan het kijken hoe ik ervoor moet zorgen dat ik niet twee keer op een knop moet klikken om naar de volgenden activity te gaan. Ik heb het antwoord gevonden op het internet, maar eigens had ik een vermoede dat fout ook daar lag waar dat het ook zat, maar ik was niet zeker.
 https://stackoverflow.com/questions/17261876/i-have-to-click-the-button-twice-for-it-to-work
 
-## week 19
+## week 19 (8h gewerkt)
 
 ### 21/01/2019
-* 2h gewerkt
+* 8h gewerkt
 * een dialog gemaakt met een video op YouTube. Ik had gedacht dat we wel een alert ingebouwd in de code zouden gehad hebben, maar blijkbaar moet je dit ook nog eens maken, en dan nog eens terug met een klasse.
 https://www.youtube.com/watch?v=Bsm-BlXo2SI
 * wachtwoord vergeten activity gemaakt, nu proberen om het wachtwoord te veranderen
+* getest op gsm
+* op gsm kon ik geen "chat" versturen dus heb ik dit moeten oplossen, het probleem was de scrollview
+* apk van hybride testen
+* verslagen schrijven
+* powerpoint voor examen maken
