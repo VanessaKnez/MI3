@@ -1,4 +1,4 @@
-# Logboek Vanessa Knez r0698813 2TI2 (totaal 50h50)
+# Logboek Vanessa Knez r0698813 2TI2 (totaal 98h50)
 ## week 1 (13h40 gewerkt)
 ### 24/09/2018
 * 40 minuten gewerkt
@@ -167,7 +167,7 @@
 
 ## week 18
 
-### 14/01/2019
+### 14/01/2019 (48h gewerkt)
 * 6h gewerkt
 * op een youtube video heb ik gezien dat we xml code konden aanpassen door te schrijven, al de rest van de video heb ik niet geluisterd. https://www.youtube.com/watch?v=4N4bCdyGcUc
 * ik had problemen met de apk en" Could not access the Package Manager.  Is the system running?"
@@ -208,9 +208,24 @@ https://www.youtube.com/watch?v=jcliHGR3CHo
 * geprobeerd om de input van de chat te tonen in een toast, maar omdat het in een fragment is en niet in een activity moet de code anders geschreven worden. Ik heb wat problemen om deftige manieren te vinden. Ik heb geprobeerd om een beetje alle methodes te testen die beschikbaar zijn om een alternatief te vinden.
 
 ### 20/01/2019
-* 4h gewerkt
+* 12h gewerkt
 * nog steeds bezig met de input van de chat. Daarna ben ik gaan zoeken op het internet.
 https://www.dreamincode.net/forums/topic/396060-cannot-resolve-method-maketext/
 * wanneer ik een if wil doen om te controleren of de input veld van de chat bericht niet leeg is krijg ik een error, er is een probleem met de if else. Ik had het probleem niet gevonden en was op internet gaan kijken omdat ik echt geen mogelijke oplossing vond.
 https://stackoverflow.com/questions/30996474/check-if-edittext-empty-in-android-edittext-and-fragment
 * nu dat de if else werkt heb ik terug geprobeerd om de input te tonen in een toast, en deze keer is het wel gelukt
+* zoeken op het internet in wat voor soort object ik de input kan tonen voor de chat in plaats van in een toast, dat het toch wat meer op een chat lijkt. Ik heb volgende links gevolgd, maar ik kon er niet verder aan werken, eerste reden was dat ik niks begreep en tweede reden is omdat ik niet verder kon gaan omdat hij in een activity bezig was en ik in een fragment:
+https://www.youtube.com/watch?v=Nw9JF55LDzE&list=PLrnPJCHvNZuBtTYUuc5Pyo4V7xZ2HNtf4&index=1
+https://www.youtube.com/watch?v=17NbUcEts9c&index=2&list=PLrnPJCHvNZuBtTYUuc5Pyo4V7xZ2HNtf4
+* ik ga proberen om alles in een textview te tonen, dit is gelukt
+* ik had gemerkt dat ik in een textview niet kan scrollen dus had wat zaken uitgeprobeerd in de xml, uiteindelijk ben ik gaan opzoeken op het internet, maar niks gevonden
+* nu ben ik aan het kijken hoe ik ervoor moet zorgen dat ik niet twee keer op een knop moet klikken om naar de volgenden activity te gaan. Ik heb het antwoord gevonden op het internet, maar eigens had ik een vermoede dat fout ook daar lag waar dat het ook zat, maar ik was niet zeker.
+https://stackoverflow.com/questions/17261876/i-have-to-click-the-button-twice-for-it-to-work
+
+## week 19
+
+### 21/01/2019
+* 2h gewerkt
+* een dialog gemaakt met een video op YouTube. Ik had gedacht dat we wel een alert ingebouwd in de code zouden gehad hebben, maar blijkbaar moet je dit ook nog eens maken, en dan nog eens terug met een klasse.
+https://www.youtube.com/watch?v=Bsm-BlXo2SI
+* wachtwoord vergeten activity gemaakt, nu proberen om het wachtwoord te veranderen
