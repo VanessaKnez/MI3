@@ -165,9 +165,9 @@
 * ik heb een iets anders gedaan dan de keer ervoor dat ik de native wou maken, ik denk dat dit de oorzaak was dat niks werkt en het uiteindelijk crashte
 * ik heb een paar zaken getest met de layout om te zien hoe het werkt, in het begin was het even wennen maar daarna was ik er redelijk "vlug" weg mee
 
-## week 18
+## week 18 (48h gewerkt)
 
-### 14/01/2019 (48h gewerkt)
+### 14/01/2019
 * 6h gewerkt
 * op een youtube video heb ik gezien dat we xml code konden aanpassen door te schrijven, al de rest van de video heb ik niet geluisterd. https://www.youtube.com/watch?v=4N4bCdyGcUc
 * ik had problemen met de apk en" Could not access the Package Manager.  Is the system running?"
